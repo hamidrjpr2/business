@@ -1,0 +1,38 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.clip-img::after {
+    clip-path: polygon(50% 0, 50% 100%, 50% 100%, 50% 0);
+}
+.clip-img:hover::after {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+
+/* @keyframes badge {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+    25%{
+        transform: scale(1.2) rotate(0);
+    }
+    50% {
+        transform: scale(1.2) rotate(25deg);
+    }
+    75%{
+        transform: scale(1.2) rotate(-25deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+    }
+}
+
+.badges {
+    
+    animation: badge 2s linear infinite;
+} */
