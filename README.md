@@ -18,7 +18,7 @@
 <br>
 
 ## 📃Description
-  This page is build with tailwindcss.
+  This page is built with tailwindcss.
   
 <br>
 
